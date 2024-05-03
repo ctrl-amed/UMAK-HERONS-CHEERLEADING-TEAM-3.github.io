@@ -16,6 +16,20 @@ body {
     background-color: #FFF;
   }
 
+.umak {
+    display: flex;
+    max-width: 760px;
+    height: 48px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* Center the content vertically */
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem; /* Responsive font size */
+    font-weight: 800;
+    float: inline-end;
+}
 
 .header {
     width: 100%;
