@@ -47,7 +47,8 @@ body {
 .sched > a,
 .gall > a,
 .about > a,
-.home > a {
+.home > a,
+.join > a{
     color: #FFF;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
