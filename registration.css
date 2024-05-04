@@ -4,11 +4,25 @@
     background-color: #FFFFFF;
 }
 
-@media (max-width: 786px) {
-    .navigation, .main-content, .sign-in, .select-role {
-      flex-basis: 100%;
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .umak {
+        font-size: 2rem;
     }
-  }
+    
+    .register > a,
+    .contact > a,
+    .try > a,
+    .news > a,
+    .sched > a,
+    .gall > a,
+    .about > a,
+    .home > a {
+        font-size: 1.2rem;
+    }
+
+    /* Add more responsive adjustments as needed */
+}
 
 body {
     margin: 0;
