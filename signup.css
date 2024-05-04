@@ -16,7 +16,7 @@
         font-size: 2rem;
     }
     
-    .register > a,
+    .signup > a,
     .contact > a,
     .try > a,
     .news > a,
@@ -62,7 +62,7 @@
     flex-shrink: 0;
 }
 
-.register > a,
+.signup > a,
 .contact > a,
 .try > a,
 .news > a,
@@ -159,7 +159,7 @@ body {
     position: relative;
 }
 
-.registration-container {
+.input-container {
     flex-basis: 50%;
     margin: 10px;
     margin-left: 0px;
@@ -167,7 +167,7 @@ body {
     padding: 50px;
 }
 
-.registration-container h2 {
+.input-container h2 {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 800;
@@ -224,7 +224,7 @@ body {
     gap: 0.25em;
 }
 
-.registration-form input[type=text], [type=password], [type=email] {
+.input-form input[type=text], [type=password], [type=email] {
     display: block;
     width: 100%;
     padding: 15px;
@@ -237,11 +237,11 @@ body {
     color: black;
 }
 
-.registration-form input:placeholder-shown {
+.input-form input:placeholder-shown {
     font-style: italic;
 }
 
-.registration-form button {
+.input-form button {
     background-color: #ffc700;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
