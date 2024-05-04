@@ -9,7 +9,7 @@
     .umak {
         font-size: 2rem;
     }
-
+    .register > a,
     .contact > a,
     .try > a,
     .news > a,
@@ -54,7 +54,7 @@
 }
 
 
-
+.register > a,
 .contact > a,
 .try > a,
 .news > a,
