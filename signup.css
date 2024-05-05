@@ -127,6 +127,10 @@ body {
 
 
 
+
+
+
+
 .sign-in-area {
     display: flex;
     flex-wrap: wrap;
@@ -211,7 +215,7 @@ body {
 
 .role-selection input[type="radio"]:checked::before {
     transform: scale(1);
-  }
+}
 
 .role-selection label {
     color: white;
@@ -237,25 +241,36 @@ body {
     color: black;
 }
 
-.registration-form input:placeholder-shown {
+.registration-form input::placeholder {
     font-style: italic;
+    color: rgba(128, 128, 128, 0.412);
 }
 
-.registration-form button {
+.signbutton :link, :visited {
     background-color: #ffc700;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 800;
     font-size: 30px;
     padding: 10px;
+    margin-top: 40px;
     border: none;
     border-radius: 25px;
     cursor: pointer;
     display: block;
     width: 100%;
-    margin: 50px 0px;
+    text-align: center;
+    text-decoration: none;
 }
 
+.signbutton :hover {
+    background-color: #ffc700;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: none;
+  }
 
 
 
