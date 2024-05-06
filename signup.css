@@ -246,7 +246,7 @@ body {
     color: rgba(128, 128, 128, 0.412);
 }
 
-.appform > a{
+a.appform:link, :visited{
     background-color: #ffc700;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
