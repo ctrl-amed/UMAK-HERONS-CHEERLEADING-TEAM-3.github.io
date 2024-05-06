@@ -246,7 +246,7 @@ body {
     color: rgba(128, 128, 128, 0.412);
 }
 
-.registration-form .signin :link, :visited {
+.appform {
     background-color: #ffc700;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
