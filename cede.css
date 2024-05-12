@@ -1,6 +1,6 @@
 .wrapper {
     width: 100%;
-    min-height: 100vh; /* Ensure at least full viewport height */
+    min-height: 60vh; /* Ensure at least full viewport height */
     background-color: #FFFFFF;
 }
 
@@ -473,6 +473,7 @@
     position: relative;
     white-space: nowrap;
     text-align: left;
+    background: #111c4e;
 }
 
 .quick{
@@ -1298,7 +1299,7 @@ body {
         padding-bottom: 262px;
         background: #F1F1F1;
         display: inline-block;
-        margin: 27px 5%;
+        margin: 27px 40px;
         min-height: 207px;
         max-height: 207px;
         border-radius: 20px;
@@ -1372,6 +1373,87 @@ body {
     
     .readmorenewstext a{
         text-decoration: none;
+    }
+    
+    .container_top {
+  width: 896px;
+  height: 341px;
+  display: flex;
+  flex-direction: row;
+  background: #F1F1F1;
+  margin-top: 50px;
+  margin-bottom: -600px;
+}
+
+    .image-upload img{
+        position: relative;
+        top: 90px;
+    }
+
+    .divider{
+        width: 100%;
+    height: 60px;
+    background-color: #111C4E;
+    }
+
+    .image-upload {
+      width: 283px;
+      height: 283px;
+      border: 1px dashed gray;
+      background: #DBD8D8;
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+    
+    .inputs{
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
+    .caption{
+        width: 100%;
+        margin-bottom: 10px;
+        height: 62px;
+    }
+    
+    .caption::placeholder { 
+        color: #111C4E;
+        font-family: 'Open Sans';
+        font-size: 24px;
+        opacity: 1;
+        font-weight: 900;
+       position: relative;
+       left: 20px;
+       top: 5px;
+       font-style: italic;
+    }
+    
+    .mind::placeholder { 
+        color: #111C4E;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        opacity: 1;
+        font-weight: 400;
+       position: relative;
+       left: 20px;
+       top: 5px;
+       font-style: italic;
+    }
+    
+    .mind {
+        width: 100%;
+        margin-bottom: 10px;
+        height: 192px;
+    }
+
+    .inputs button {
+      width: 94px;
+      height: 20px;
+      background: #FFC700;
+      border-radius: 10px;
+      position: relative;
+      top: -10px;
+      float: right;
     }
 }
     
