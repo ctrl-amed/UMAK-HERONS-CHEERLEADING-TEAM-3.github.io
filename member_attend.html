@@ -96,7 +96,7 @@
                         </div>
                       <form class="attendance-form" action="/submit-attendance" method="post">
                         <div class="form-row-radio">
-                            <h2>STATUS:</h2>
+                            <h2>STATUS: *</h2>
                             <div class="radio-group">
                                 <label><input type="radio" id="present" name="status" value="present">Present</label>
                                 <label><input type="radio" id="absent" name="status" value="absent">Absent</label>
@@ -104,18 +104,18 @@
                           </div>
                         <div class="form-row">
                           <label for="date">DATE:</label>
-                            <input type="date" id="date" name="date" required>
+                            <input type="date" id="date" name="date" readonly>
                         </div>
                         <div class="form-row">
                           <label for="coach">COACH:</label>
-                          <input type="text" id="coach" name="coach" placeholder="CURRENT COACH" required>
+                          <input type="text" id="coach" name="coach" placeholder="CURRENT COACH" readonly>
                         </div>
                         <div class="form-row">
-                          <label for="time_in">TIME IN:</label>
+                          <label for="time_in">TIME IN: *</label>
                           <input type="time" id="time_in" name="time_in" required>
                         </div>
                         <div class="form-row">
-                            <label for="time_in">TIME OUT:</label>
+                            <label for="time_in">TIME OUT: *</label>
                             <input type="time" id="time_in" name="time_in" required>
                           </div>
                         <div class="form-actions">
