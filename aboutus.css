@@ -221,8 +221,114 @@ body {
 	
 }
 
+@font-face {
+  font-family: 'Archivo Black';
+  src: url('ArchivoBlack-Regular.ttf')
+}
 
+@font-face {
+  font-family: 'Open Sans';
+  src: url('OpenSans-Regular.ttf')
+}
 
+  
+.container_top {
+  width: 896px;
+  height: 341px;
+  display: flex;
+  flex-direction: row;
+  background: #F1F1F1;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+    .image-upload img{
+        position: relative;
+        top: 90px;
+    }
+
+    .divider{
+        width: 100%;
+    height: 60px;
+    background-color: #111C4E;
+    }
+
+    .image-upload {
+      width: 283px;
+      height: 283px;
+      border: 1px dashed gray;
+      background: #DBD8D8;
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+    
+    .inputs{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .caption{
+        width: 90%;
+        margin-bottom: 10px;
+        height: 62px;
+    }
+    
+    .caption::placeholder { 
+        color: #111C4E;
+        font-family: 'Open Sans';
+        font-size: 24px;
+        opacity: 1;
+        font-weight: 900;
+       position: relative;
+       left: 20px;
+       top: 5px;
+       font-style: italic;
+    }
+    
+    .mind::placeholder { 
+        color: #111C4E;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        opacity: 1;
+        font-weight: 400;
+       position: relative;
+       left: 20px;
+       top: 5px;
+       font-style: italic;
+    }
+    
+    .mind {
+        width: 292px;
+        margin-top: 30px;
+        height: auto;
+		margin-left: -35px;
+    }
+	
+.mind option {
+        color: #111C4E;
+        font-family: 'Open Sans';
+        font-size: 24px;
+        opacity: 1;
+        font-weight: 900;
+       position: relative;
+       left: 20px;
+       top: 5px;
+       font-style: italic;
+}
+
+.inputs button {
+    width: 204px;
+    height: 69px;
+    background: #111C4E;
+    border-radius: 10px;
+	position: relative;
+	top: 100px;
+	right: 30px;	
+	float: right;
+	color: white;
+	font-size: 36px;
+	cursor: pointer;
+}
 
 
 
@@ -248,6 +354,15 @@ body {
 	margin-bottom:10%;
 	white-space: nowrap;
 }
+
+.line0{
+    margin-top: 50px;
+    width: 100%;
+	height: 20px;
+	display: block;
+	background-color:#111C4E;
+}
+
 
 .line1{
 	width:10vw;
